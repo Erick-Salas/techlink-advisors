@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="TechLink Advisors conecta a organizaciones con asesores especializados para identificar, analizar y planificar soluciones tecnológicas empresariales.">
+  <title>TechLink Advisors | Asesoría en soluciones tecnológicas empresariales</title>
+</head>
+
+<body>
+
+  <!-- ===================== ENCABEZADO ===================== -->
+  <header>
+    <section>
+      <a href="index.html">
+        <img src="images/logo-techlink-advisors.png" alt="TechLink Advisors, página de inicio" width="180" height="60">
+      </a>
+      <h2>TechLink Advisors</h2>
+    </section>
+
+    <form action="catalogo.html" method="get" role="search">
+      <label for="busqueda-global">Buscar soluciones</label>
+      <input type="search" id="busqueda-global" name="q" placeholder="Ej.: SD-WAN, ciberseguridad, nube">
+      <button type="submit">Buscar</button>
+    </form>
+
+    <nav aria-label="Acceso de usuario">
+      <ul>
+        <li><a href="registro.html">Registrarse</a></li>
+        <li><a href="login.html">Iniciar sesión</a></li>
+        <li><a href="cliente/perfil.html">Mi perfil</a></li>
+        <li><a href="solicite-asesoria.html">Solicite una asesoría</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Idioma">
+      <ul>
+        <li><a href="index.html" lang="es" hreflang="es">ESPAÑOL</a></li>
+        <li><a href="en/index.html" lang="en" hreflang="en">ENGLISH</a></li>
+        <li><a href="fr/index.html" lang="fr" hreflang="fr">FRANÇOIS</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <a href="catalogo.html">Soluciones</a>
+          <ul>
+            <li><a href="catalogo.html">Por categoría tecnológica</a></li>
+            <li><a href="catalogo.html#necesidad">Por necesidad empresarial</a></li>
+            <li><a href="industrias.html">Por industria</a></li>
+            <li><a href="catalogo.html#destacados">Servicios destacados</a></li>
+          </ul>
+        </li>
+        <li><a href="directorio.html">Directorio</a></li>
+        <li><a href="diagnostico.html">Diagnóstico empresarial</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="casos.html">Casos empresariales</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="ayuda.html">Centro de atención</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- ===================== CONTENIDO PRINCIPAL ===================== -->
+  <main>
+
+    <!-- Ruta de navegación -->
+    <nav aria-label="Ruta de navegación">
+      <ol>
+        <li><a href="index.html">Inicio</a></li>
+        <li aria-current="page">Diagnóstico empresarial</li>
+      </ol>
+    </nav>
+
+    <!-- Título y aviso -->
+    <section aria-labelledby="titulo-diagnostico">
+      <h1 id="titulo-diagnostico">Diagnóstico empresarial</h1>
+      <p>Complete este formulario para que una persona asesora conozca la situación de su organización.</p>
+    </section>
+
+    <!-- Formulario -->
+    <section aria-labelledby="titulo-formulario">
+      <h2 id="titulo-formulario">Formulario</h2>
+
+      <form action="" method="post">
+
+        <!-- Bloque 1: Datos de la organización -->
+        <fieldset>
+          <legend>Datos de la organización</legend>
+
+          <label for="org-nombre">Nombre de la organización</label>
+          <input type="text" id="org-nombre" name="organizacion">
+
+          <label for="org-industria">Industria</label>
+          <select id="org-industria" name="industria">
+            <option value="">Seleccione una industria</option>
+            <option value="manufactura">Manufactura</option>
+            <option value="comercio">Comercio</option>
+            <option value="servicios-profesionales">Servicios profesionales</option>
+            <option value="educacion">Educación</option>
+            <option value="salud">Salud</option>
+            <option value="logistica">Logística</option>
+            <option value="hospitalidad">Hospitalidad</option>
+            <option value="financiero">Sector financiero</option>
+            <option value="instituciones-publicas">Instituciones públicas</option>
+            <option value="agricultura">Agricultura</option>
+            <option value="pymes">Pequeñas y medianas empresas</option>
+          </select>
+
+          <label for="org-ubicacion">Ubicación</label>
+          <input type="text" id="org-ubicacion" name="ubicacion">
+
+          <label for="org-colaboradores">Cantidad aproximada de colaboradores</label>
+          <input type="number" id="org-colaboradores" name="colaboradores">
+
+        </fieldset>
+
+        <!-- Bloque 2: Situación actual -->
+        <fieldset>
+          <legend>Situación actual</legend>
+
+          <label for="sit-problematica">Problemática identificada</label>
+          <textarea id="sit-problematica" name="problematica" rows="4" cols="50"></textarea>
+
+          <label for="sit-objetivos">Objetivos esperados</label>
+          <textarea id="sit-objetivos" name="objetivos" rows="4" cols="50"></textarea>
+
+          <label for="sit-infraestructura">Infraestructura tecnológica actual</label>
+          <textarea id="sit-infraestructura" name="infraestructura" rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <!-- Bloque 3: Necesidades -->
+        <fieldset>
+          <legend>Necesidades</legend>
+
+          <label for="nec-presupuesto">Presupuesto estimado</label>
+          <input type="text" id="presupuesto" name="presupuesto">
+
+          <label for="urgencia">Urgencia</label>
+            <select id="urgencia" name="urgencia">
+            <option value="">Seleccione opción</option>
+            <option value="urgencia-alta">Urgencia Alta</option>
+            <option value="urgencia-media">Urgencia Media</option>
+            <option value="urgencia-baja">Urgencia Baja</option>
+          </select>
+          
+        </fieldset>
+
+        <!-- Bloque 4: Contacto -->
+        <fieldset>
+          <legend>Contacto</legend>
+          <label for="con-medio">Medio de contacto preferido</label>
+          <select id="con-medio" name="medio-contacto">
+            <option value="">Seleccionar opción</option>
+            <option value="correo">Correo electrónico</option>
+            <option value="telefono">Teléfono</option>
+            <option value="videollamada">Videollamada</option>
+          </select>
+          <label for="con-datos">Datos del contacto</label>
+          <input type="text" id="con-nombre" name="contacto-nombre">
+        </fieldset>
+
+        <!-- Acciones -->
+        <p>
+          <button type="submit">Enviar diagnóstico</button>
+          <a href="index.html">Cancelar</a>
+        </p>
+
+      </form>
+    </section>
+
+  </main>
+
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer>
+
+    <section aria-labelledby="titulo-footer-institucional">
+      <h2 id="titulo-footer-institucional">TechLink Advisors</h2>
+      <p>Plataforma de asesoría en soluciones tecnológicas empresariales, con alcance nacional y internacional.</p>
+    </section>
+
+    <section aria-labelledby="titulo-boletin">
+      <h2 id="titulo-boletin">Boletín informativo</h2>
+      <form action="#" method="post">
+        <label for="boletin-correo">Correo electrónico:</label>
+        <input type="email" id="boletin-correo" name="correo">
+        <button type="submit">Suscribirme</button>
+      </form>
+    </section>
+
+    <nav aria-label="Enlaces institucionales">
+      <h2>Información</h2>
+      <ul>
+        <li><a href="privacidad.html">Políticas de privacidad</a></li>
+        <li><a href="terminos.html">Términos de uso</a></li>
+        <li><a href="datos.html">Tratamiento de datos</a></li>
+        <li><a href="ayuda.html">Centro de atención</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <address>
+      <h2>Contacto</h2>
+      <p>Correo: <a href="mailto:info@techlinkadvisors.example">info@techlinkadvisors.com</a></p>
+      <p>Teléfono: <a href="tel:+5068000 8000">+506 8000 8000</a></p>
+    </address>
+
+    <nav aria-label="Redes sociales">
+      <h2>Síganos</h2>
+      <ul>
+        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+
+    <p><small>&copy; 2026 TechLink Advisors.</small></p>
+
+  </footer>
+
+</body>
+
+</html>

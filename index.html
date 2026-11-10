@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="TechLink Advisors conecta a organizaciones con asesores especializados para identificar, analizar y planificar soluciones tecnológicas empresariales.">
+  <title>TechLink Advisors | Asesoría en soluciones tecnológicas empresariales</title>
+</head>
+
+<body>
+
+  <!-- ===================== ENCABEZADO ===================== -->
+  <header>
+    <section>
+      <a href="index.html">
+        <img src="images/logo-techlink-advisors.png" alt="TechLink Advisors, página de inicio" width="180" height="60">
+      </a>
+      <h2>TechLink Advisors</h2>
+    </section>
+
+    <form action="catalogo.html" method="get" role="search">
+      <label for="busqueda-global">Buscar soluciones</label>
+      <input type="search" id="busqueda-global" name="q" placeholder="Ej.: SD-WAN, ciberseguridad, nube">
+      <button type="submit">Buscar</button>
+    </form>
+
+    <nav aria-label="Acceso de usuario">
+      <ul>
+        <li><a href="registro.html">Registrarse</a></li>
+        <li><a href="login.html">Iniciar sesión</a></li>
+        <li><a href="cliente/perfil.html">Mi perfil</a></li>
+        <li><a href="solicite-asesoria.html">Solicite una asesoría</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Idioma">
+      <ul>
+        <li><a href="index.html" lang="es" hreflang="es">ESPAÑOL</a></li>
+        <li><a href="en/index.html" lang="en" hreflang="en">ENGLISH</a></li>
+        <li><a href="fr/index.html" lang="fr" hreflang="fr">FRANÇOIS</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <a href="catalogo.html">Soluciones</a>
+          <ul>
+            <li><a href="catalogo.html">Por categoría tecnológica</a></li>
+            <li><a href="catalogo.html#necesidad">Por necesidad empresarial</a></li>
+            <li><a href="industrias.html">Por industria</a></li>
+            <li><a href="catalogo.html#destacados">Servicios destacados</a></li>
+          </ul>
+        </li>
+        <li><a href="directorio.html">Directorio</a></li>
+        <li><a href="diagnostico.html">Diagnóstico empresarial</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="casos.html">Casos empresariales</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="ayuda.html">Centro de atención</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- ===================== CONTENIDO PRINCIPAL ===================== -->
+  <main>
+
+    <!-- 1. Propuesta de valor -->
+    <section aria-labelledby="titulo-propuesta">
+      <h1 id="titulo-propuesta">Soluciones tecnológicas para su organización, con el acompañamiento de personas asesoras
+        especializadas</h1>
+      <p>TechLink Advisors le ayuda a identificar qué tecnología necesita su empresa, a comprender sus posibles
+        aplicaciones y a recibir orientación experta antes de tomar decisiones.</p>
+      <p><a href="solicite-asesoria.html">Solicite una asesoría</a></p>
+    </section>
+
+    <!-- 2. Propósito de la plataforma -->
+    <section aria-labelledby="titulo-proposito">
+      <h2 id="titulo-proposito">Qué es TechLink Advisors</h2>
+      <p>Es una plataforma digital de promoción de soluciones tecnológicas empresariales. No es una tienda electrónica y
+        no vende equipos, licencias ni servicios de forma directa.</p>
+      <p>Su propósito es facilitar el contacto entre organizaciones con necesidades tecnológicas y personas asesoras que
+        analizan cada requerimiento, orientan la identificación de soluciones y acompañan cada oportunidad.</p>
+      <article aria-labelledby="titulo-proceso">
+        <h3 id="titulo-proceso">Cómo funciona</h3>
+        <ol>
+          <li>Explore las áreas de solución.</li>
+          <li>Identifique su necesidad.</li>
+          <li>Complete el diagnóstico preliminar.</li>
+          <li>Genere su solicitud de asesoría.</li>
+          <li>Reciba seguimiento de una persona asesora.</li>
+        </ol>
+      </article>
+    </section>
+
+    <!-- 3. Buscador y soluciones destacadas -->
+    <section aria-labelledby="titulo-buscador">
+      <h2 id="titulo-buscador">Encuentre la solución que necesita</h2>
+      <form action="catalogo.html" method="get" role="search">
+        <fieldset>
+          <legend>Búsqueda de soluciones</legend>
+          <label for="buscar-palabra">Palabra clave</label>
+          <input type="search" id="buscar-palabra" name="q">
+          <select id="buscar-area" name="area">
+            <option value="">Seleccionar área</option>
+            <option value="redes">Redes avanzadas y conectividad</option>
+            <option value="experiencia">Experiencia del cliente</option>
+            <option value="ciberseguridad">Ciberseguridad</option>
+            <option value="nube">Nube y servicios administrados</option>
+            <option value="movilidad">Movilidad</option>
+            <option value="iot">Internet de las cosas</option>
+          </select>
+          <button type="submit">Buscar soluciones</button>
+        </fieldset>
+      </form>
+
+      <h3>Soluciones destacadas</h3>
+      <article>
+        <h4>SD-WAN y conmutación automática ante fallos</h4>
+        <p>Mantenga la conectividad de sus sedes ante interrupciones.</p>
+        <a href="servicio-redes.html">Ver detalle</a>
+      </article>
+      <article>
+        <h4>SOC como servicio</h4>
+        <p>Monitoreo y respuesta ante incidentes de seguridad.</p>
+        <a href="servicio-ciberseguridad.html">Ver detalle</a>
+      </article>
+      <article>
+        <h4>Recuperación ante desastres</h4>
+        <p>Proteja la continuidad de sus operaciones y su información.</p>
+        <a href="servicio-nube.html">Ver detalle</a>
+      </article>
+
+      <p><a href="catalogo.html">Ver catálogo completo</a></p>
+    </section>
+
+    <!-- 4. Resumen de las seis áreas de solución -->
+    <section aria-labelledby="titulo-areas">
+      <h2 id="titulo-areas">Áreas de solución</h2>
+      <p>Seis áreas tecnológicas para atender distintas necesidades empresariales.</p>
+
+      <article>
+        <figure>
+          <img src="images/area-redes.jpg" alt="Equipos de red y conectividad en un centro de datos" width="320"
+            height="200">
+          <figcaption>Redes avanzadas y conectividad</figcaption>
+        </figure>
+        <h3>Redes avanzadas y conectividad</h3>
+        <p>Banda ancha, fibra dedicada, redes inalámbricas, SD-WAN y SASE.</p>
+        <a href="servicio-redes.html">Conocer más</a>
+      </article>
+
+      <article>
+        <figure>
+          <img src="images/area-experiencia.jpg" alt="Persona agente atendiendo clientes en un centro de contacto"
+            width="320" height="200">
+          <figcaption>Experiencia del cliente</figcaption>
+        </figure>
+        <h3>Experiencia del cliente</h3>
+        <p>Centros de contacto, comunicaciones unificadas, chatbots e integración con CRM.</p>
+        <a href="servicio-experiencia.html">Conocer más</a>
+      </article>
+
+      <article>
+        <figure>
+          <img src="images/area-ciberseguridad.jpg" alt="Panel de monitoreo de seguridad informática" width="320"
+            height="200">
+          <figcaption>Ciberseguridad</figcaption>
+        </figure>
+        <h3>Ciberseguridad</h3>
+        <p>Identificación, protección, detección y respuesta ante amenazas.</p>
+        <a href="servicio-ciberseguridad.html">Conocer más</a>
+      </article>
+
+      <article>
+        <figure>
+          <img src="images/area-nube.jpg" alt="Representación de servicios en la nube conectados" width="320"
+            height="200">
+          <figcaption>Nube y servicios administrados</figcaption>
+        </figure>
+        <h3>Nube y servicios administrados</h3>
+        <p>Nube pública, privada e híbrida, respaldo, migración y soporte técnico.</p>
+        <a href="servicio-nube.html">Conocer más</a>
+      </article>
+
+      <article>
+        <figure>
+          <img src="images/area-movilidad.jpg" alt="Dispositivos móviles empresariales administrados" width="320"
+            height="200">
+          <figcaption>Movilidad</figcaption>
+        </figure>
+        <h3>Movilidad</h3>
+        <p>Dispositivos móviles, eSIM, conectividad 4G y 5G y administración de equipos.</p>
+        <a href="servicio-movilidad.html">Conocer más</a>
+      </article>
+
+      <article>
+        <figure>
+          <img src="images/area-iot.jpg" alt="Sensores conectados en una planta de producción" width="320" height="200">
+          <figcaption>Internet de las cosas</figcaption>
+        </figure>
+        <h3>Internet de las cosas</h3>
+        <p>Sensores, monitoreo, control de acceso, telemática y analítica de datos.</p>
+        <a href="servicio-iot.html">Conocer más</a>
+      </article>
+
+      <p><a href="catalogo.html">Explorar todas las áreas en el catálogo</a></p>
+    </section>
+
+    <!-- 5. Casos de uso, testimonios y recursos destacados -->
+    <section aria-labelledby="titulo-casos">
+      <h2 id="titulo-casos">Casos de uso, testimonios y recursos</h2>
+
+      <article>
+        <h3>Caso de uso: conectividad para una red de sedes</h3>
+        <p>Una organización con varias sedes identificó interrupciones frecuentes y analizó opciones de redundancia con
+          una persona asesora. Caso ficticio con fines ilustrativos.</p>
+        <a href="casos.html#caso-conectividad">Leer el caso</a>
+      </article>
+
+      <article>
+        <h3>Testimonio</h3>
+        <blockquote>
+          <p>El diagnóstico nos ayudó a ordenar nuestras prioridades antes de la primera reunión.</p>
+          <footer>Representante de una empresa de logística (testimonio ficticio)</footer>
+        </blockquote>
+      </article>
+
+      <article>
+        <h3>Recurso destacado</h3>
+        <p>Guía: primeros pasos para fortalecer la ciberseguridad de una pyme.</p>
+        <a href="recursos.html#guia-ciberseguridad">Ver recurso</a>
+      </article>
+
+      <p>
+        <a href="casos.html">Ver más casos y testimonios</a>
+        |
+        <a href="recursos.html">Ver recursos destacados</a>
+      </p>
+    </section>
+
+    <!-- 6. Últimas entradas del blog -->
+    <section aria-labelledby="titulo-blog">
+      <h2 id="titulo-blog">Últimas entradas del blog</h2>
+
+      <article>
+        <h3>Qué es SD-WAN y cuándo conviene evaluarla</h3>
+        <p>Publicado el <time datetime="2026-09-15">15 de setiembre de 2026</time> en Conectividad.</p>
+        <p>Una introducción a los criterios para analizar esta tecnología.</p>
+        <a href="articulo.html">Leer artículo</a>
+      </article>
+
+      <article>
+        <h3>Cinco hábitos de ciberseguridad para equipos pequeños</h3>
+        <p>Publicado el <time datetime="2026-09-08">8 de setiembre de 2026</time> en Ciberseguridad.</p>
+        <p>Buenas prácticas que cualquier organización puede empezar a aplicar.</p>
+        <a href="articulo.html">Leer artículo</a>
+      </article>
+
+      <p><a href="blog.html">Ir al blog</a></p>
+    </section>
+
+    <!-- 7. Contenido para cada perfil -->
+    <section aria-labelledby="titulo-perfiles">
+      <h2 id="titulo-perfiles">Un espacio para cada perfil</h2>
+
+      <article>
+        <h3>Si visita el sitio</h3>
+        <p>Explore el catálogo, conozca las áreas de solución y lea los recursos sin necesidad de crear una cuenta.</p>
+        <a href="catalogo.html">Explorar soluciones</a>
+      </article>
+
+      <article>
+        <h3>Si es cliente empresarial</h3>
+        <p>Administre su perfil, sus diagnósticos y sus solicitudes, y consulte el estado de cada una.</p>
+        <a href="login.html">Ingresar a mi cuenta</a>
+        <a href="registro.html">Crear una cuenta</a>
+      </article>
+
+      <article>
+        <h3>Si es asesor tecnológico</h3>
+        <p>Revise solicitudes asignadas, clasifique necesidades y gestione su agenda de seguimiento.</p>
+        <a href="login.html">Ingresar al panel de asesoría</a>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer>
+
+    <section aria-labelledby="titulo-footer-institucional">
+      <h2 id="titulo-footer-institucional">TechLink Advisors</h2>
+      <p>Plataforma de asesoría en soluciones tecnológicas empresariales, con alcance nacional y internacional.</p>
+    </section>
+
+    <section aria-labelledby="titulo-boletin">
+      <h2 id="titulo-boletin">Boletín informativo</h2>
+      <form action="#" method="post">
+        <label for="boletin-correo">Correo electrónico:</label>
+        <input type="email" id="boletin-correo" name="correo">
+        <button type="submit">Suscribirme</button>
+      </form>
+    </section>
+
+    <nav aria-label="Enlaces institucionales">
+      <h2>Información</h2>
+      <ul>
+        <li><a href="privacidad.html">Políticas de privacidad</a></li>
+        <li><a href="terminos.html">Términos de uso</a></li>
+        <li><a href="datos.html">Tratamiento de datos</a></li>
+        <li><a href="ayuda.html">Centro de atención</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <address>
+      <h2>Contacto</h2>
+      <p>Correo: <a href="mailto:info@techlinkadvisors.example">info@techlinkadvisors.com</a></p>
+      <p>Teléfono: <a href="tel:+5068000 8000">+506 8000 8000</a></p>
+    </address>
+
+    <nav aria-label="Redes sociales">
+      <h2>Síganos</h2>
+      <ul>
+        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+
+    <p><small>&copy; 2026 TechLink Advisors.</small></p>
+
+  </footer>
+
+</body>
+
+</html>
